@@ -99,7 +99,7 @@ int treeDepth(node *start){
 
 // TODO: Implementierung Rotationen
 // rotateLL
-node* rotateLL(node* start, int key, const char* data) {           // Knoten einfuegen
+node* rotateLL(node* start, int key, const char* data) {           
     node* temp = (node*)malloc(sizeof(node));
     strcpy(temp->data, data);
     temp->key = key;
@@ -112,7 +112,7 @@ node* rotateLL(node* start, int key, const char* data) {           // Knoten ein
     start->right = temp;
 }
 // rotateRL
-node* rotateRL(node* start, int key, const char* data) {           // Knoten einfuegen
+node* rotateRL(node* start, int key, const char* data) {           
     node* temp = (node*)malloc(sizeof(node));
     strcpy(temp->data, data);
     temp->key = key;
@@ -128,7 +128,7 @@ node* rotateRL(node* start, int key, const char* data) {           // Knoten ein
 
 }
 // rotateRR
-node* rotateRR(node* start, int key, const char* data) {           // Knoten einfuegen
+node* rotateRR(node* start, int key, const char* data) {           
     node* temp = (node*)malloc(sizeof(node));
     strcpy(temp->data, data);
     temp->key = key;
@@ -141,7 +141,7 @@ node* rotateRR(node* start, int key, const char* data) {           // Knoten ein
     start->left = temp;
 }
 // rotateLR
-node* rotateLR(node* start, int key, const char* data) {           // Knoten einfuegen
+node* rotateLR(node* start, int key, const char* data) {           
     node* temp = (node*)malloc(sizeof(node));
     strcpy(temp->data, data);
     temp->key = key;
