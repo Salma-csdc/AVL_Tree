@@ -14,7 +14,7 @@ binTree *t_init(){
     tmp->size = 0;
     return tmp;
 }
-
+//
 // TODO: double pointer einführen oder über return Werte lösen
 
 node *insertNode(node *start, int key, const char *data){           // Knoten einfuegen
