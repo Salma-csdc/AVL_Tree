@@ -124,7 +124,7 @@ node* rotateRL(node* start, int key, const char* data) {           // Knoten ein
     start->right->right = middleNode;
     start->right = temp;
     start->right->left = NULL;
-    rotateLL(start, key, data);
+    rotateRR(start, key, data);
 
 }
 // rotateRR
